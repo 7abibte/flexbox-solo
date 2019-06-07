@@ -111,7 +111,6 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    flex-wrap: wrap;
   margin: 0;
     
   height: 100%;
@@ -123,7 +122,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  background: #222;
   background:rgba(0,0,0,0.4);
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
@@ -132,8 +130,9 @@ body {
   line-height: 1.5em;
   border-radius: 10px;
   padding: 0px 30px;
-  width: 610px;
+  width: 60%;
     margin-bottom: 20px;
+    height: auto;
   /* height: 300px; */
 }
 
@@ -141,7 +140,8 @@ body {
     margin: 10px 0 0;
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 3px;
-    text-align: center
+    text-align: center;
+    line-height: 1em;
 }
 
 #content p span {
@@ -152,11 +152,13 @@ body {
 
 #content-2 {
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
     background: red;
+    text-align: center;
 }
 
 
